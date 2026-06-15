@@ -4,4 +4,6 @@ A fork of the [Dock Express](https://github.com/fthx/dock-express) by fthx, with
 ## Changes being made
 - Full compatibility with GNOME 50.
 
+
+
 Original work developed by [fthx](https://github.com/fthx/dock-express).
