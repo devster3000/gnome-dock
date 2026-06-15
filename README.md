@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://example.com/image.png" 
+  <img src="https://github.com/devster3000/Assets/blob/main/gnome-dock.png" 
        alt="Alt text"
        width="300"
        height="300"
