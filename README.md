@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://example.com/image.png" 
+       alt="Alt text"
+       width="300"
+       height="300"
+       style="border-radius: 15px;" />
+</p>
+
 # GNOME Dock
 A fork of the [Dock Express](https://github.com/fthx/dock-express) by fthx, with some modifications to ensure compatibility with future GNOME versions.
 
