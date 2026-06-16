@@ -1,17 +1,12 @@
 {
-  "description": "Turn the native GNOME dash into a dock.\n\n Settings: dock autohide, pressure, animation, opacity.\n\n There is no multi-monitor support at the moment.\n\n Very short code (less than 300 lines), very light extension: the dock object is the GNOME dash itself, so no new object is created.",
-  "name": "Dock Express",
-  "shell-version": [
-    "46",
-    "47",
-    "48",
-    "49"
-  ],
-  "url": "https://github.com/fthx/dock-express",
-  "uuid": "dock-express@fthx",
-  "settings-schema": "org.gnome.shell.extensions.dock-express",
-  "version": 999,
+  "description": "Turn the native GNOME dash into a dock.\n\n Settings: dock autohide, pressure, animation, opacity, maybe more in the future.",
+  "name": "GNOME Dock",
+  "shell-version": ["46", "47", "48", "49", "50"],
+  "url": "https://github.com/devster3000/gnome-dock",
+  "uuid": "gnome-dock@devster3000",
+  "settings-schema": "org.gnome.shell.extensions.gnome-dock",
+  "version": "1",
   "donations": {
-    "paypal": "fthx75"
+    "paypal": "willcranston"
   }
 }
