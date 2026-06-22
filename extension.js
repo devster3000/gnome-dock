@@ -25,6 +25,8 @@ import Shell from "gi://Shell";
 import * as Layout from "resource:///org/gnome/shell/ui/layout.js";
 import * as Main from "resource:///org/gnome/shell/ui/main.js";
 
+import { MusicPill } from "./src/music/uiMusicPill.js";
+
 import { Extension } from "resource:///org/gnome/shell/extensions/extension.js";
 
 const HOT_EDGE_PRESSURE_TIMEOUT = 500; // ms
@@ -65,6 +67,22 @@ const BottomDock = GObject.registerClass(
 
     _initDash() {
       this._dash = Main.overview.dash;
+
+      // Create music pill
+      this._musicPill = new MusicPill({
+        togglePlayback: () => {
+          // temporary placeholder
+          log("Play/Pause clicked");
+        },
+      });
+
+      GLib.timeout_add(GLib.PRIORITY_DEFAULT, 2000, () => {
+        this._musicPill.update("Test Song", true);
+        return GLib.SOURCE_REMOVE;
+      });
+
+      // Add to dash container
+      this._dash._dashContainer.add_child(this._musicPill);
 
       this._dash._dashContainer.connectObject(
         "scroll-event",
