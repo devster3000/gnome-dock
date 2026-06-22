@@ -1,11 +1,11 @@
 {
   "description": "Turn the native GNOME dash into a dock.\n\n Settings: dock autohide, pressure, animation, opacity, maybe more in the future.",
-  "name": "GNOME Dock",
+  "name": "Docka",
   "shell-version": ["46", "47", "48", "49", "50"],
-  "url": "https://github.com/devster3000/gnome-dock",
-  "uuid": "gnome-dock@devster3000",
-  "settings-schema": "org.gnome.shell.extensions.gnome-dock",
-  "version": "1",
+  "url": "https://github.com/devster3000/docka",
+  "uuid": "docka@devster3000",
+  "settings-schema": "org.gnome.shell.extensions.docka",
+  "version": "2",
   "donations": {
     "paypal": "willcranston"
   }
