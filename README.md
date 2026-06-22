@@ -6,7 +6,7 @@
        style="border-radius: 15px;" />
 </p>
 <h1 align="center">
-  <b>GNOME Dock</b>
+  <b>Docka (GNOME Dock)</b>
 </h1>
 
 A fork of [Dock Express](https://github.com/fthx/dock-express) by fthx, with some modifications to ensure compatibility with future GNOME versions.
