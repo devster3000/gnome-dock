@@ -1,5 +1,5 @@
 /*
-    GNOME Dock - Gnome Shell extension
+    Docka - Gnome Shell extension
     Based on Dock Express extension by fthx (now unmaintained)
 
     Changes made (by devster3000):
@@ -339,7 +339,7 @@ const BottomDock = GObject.registerClass(
   },
 );
 
-export default class GNOMEDockExtension extends Extension {
+export default class DockaExtension extends Extension {
   constructor(metadata) {
     super(metadata);
   }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schemalist>
-    <schema path="/org/gnome/shell/extensions/gnome-dock/" id="org.gnome.shell.extensions.gnome-dock">
+    <schema path="/org/gnome/shell/extensions/docka/" id="org.gnome.shell.extensions.docka">
 
     <key type="b" name="dock-autohide">
         <default>true</default>
