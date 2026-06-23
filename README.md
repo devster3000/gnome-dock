@@ -9,6 +9,8 @@
   <b>Docka (GNOME Dock)</b>
 </h1>
 
+See it on GNOME Extensions - [Docka](https://extensions.gnome.org/extension/10270/docka)
+
 A fork of [Dock Express](https://github.com/fthx/dock-express) by fthx, with some modifications to ensure compatibility with future GNOME versions.
 
 ## Changes being made
