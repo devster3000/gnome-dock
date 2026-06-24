@@ -3,7 +3,7 @@
   "name": "Docka",
   "shell-version": ["46", "47", "48", "49", "50"],
   "url": "https://github.com/devster3000/docka",
-  "uuid": "docka@devster3000",
+  "uuid": "docka-dev@devster3000",
   "settings-schema": "org.gnome.shell.extensions.docka",
   "version": "2",
   "donations": {
