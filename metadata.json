@@ -1,5 +1,5 @@
 {
-  "description": "Turn the native GNOME dash into a dock.\n\n Settings: dock autohide, pressure, animation, opacity, maybe more in the future.\n ! This extension is a fork of Dock Express from fthx !",
+  "description": "Turn the native GNOME dash into a dock.\n\n Settings: dock autohide, pressure, animation, opacity, maybe more in the future.",
   "name": "Docka",
   "shell-version": ["46", "47", "48", "49", "50"],
   "url": "https://github.com/devster3000/docka",
