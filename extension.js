@@ -108,7 +108,6 @@ const BottomDock = GObject.registerClass(
       ) {
         Main.overview._overview._controls.remove_child(this._dash);
         Main.layoutManager.addTopChrome(this._dash, {
-          affectsInputRegion: true,
           affectsStruts: false,
           trackFullscreen: false,
         });
